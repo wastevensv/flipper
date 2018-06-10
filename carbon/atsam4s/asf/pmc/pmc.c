@@ -356,7 +356,7 @@ uint32_t pmc_osc_is_ready_32kxtal(void)
  *
  * \retval 0 Success.
  * \retval 1 Timeout error.
- * \retval 2 Invalid frequency.
+ * \retval 2 invalid frequency.
  */
 void pmc_switch_mainck_to_fastrc(uint32_t ul_moscrcf)
 {
@@ -687,7 +687,7 @@ uint32_t pmc_is_locked_upll(void)
  * \param ul_id Peripheral ID (ID_xxx).
  *
  * \retval 0 Success.
- * \retval 1 Invalid parameter.
+ * \retval 1 invalid parameter.
  */
 uint32_t pmc_enable_periph_clk(uint32_t ul_id)
 {
@@ -727,7 +727,7 @@ uint32_t pmc_enable_periph_clk(uint32_t ul_id)
  * \param ul_id Peripheral ID (ID_xxx).
  *
  * \retval 0 Success.
- * \retval 1 Invalid parameter.
+ * \retval 1 invalid parameter.
  */
 uint32_t pmc_disable_periph_clk(uint32_t ul_id)
 {
@@ -1614,7 +1614,7 @@ uint32_t pmc_enable_sleepwalking(uint32_t ul_id)
  * \param ul_id Peripheral ID (ID_xxx).
  *
  * \retval 0 Success.
- * \retval 1 Invalid parameter.
+ * \retval 1 invalid parameter.
  */
 uint32_t pmc_disable_sleepwalking(uint32_t ul_id)
 {

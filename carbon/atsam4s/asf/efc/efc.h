@@ -64,7 +64,7 @@ typedef enum efc_rc {
 	EFC_RC_YES = 0,     //!< Yes
 	EFC_RC_NO = 1,      //!< No
 	EFC_RC_ERROR = 1,   //!< General error
-	EFC_RC_INVALID,     //!< Invalid argument input
+	EFC_RC_INVALID,     //!< invalid argument input
 	EFC_RC_NOT_SUPPORT = 0xFFFFFFFF //!< Operation is not supported
 } efc_rc_t;
 //! @}

@@ -89,7 +89,7 @@ extern "C" {
  * \param ul_mck MCK clock.
  *
  * \retval SSC_RC_YES Success.
- * \retval SSC_RC_NO Invalid input value.
+ * \retval SSC_RC_NO invalid input value.
  */
 uint32_t ssc_set_clock_divider(Ssc *p_ssc, uint32_t ul_bitrate,
 		uint32_t ul_mck)

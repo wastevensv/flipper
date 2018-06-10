@@ -60,7 +60,7 @@ extern "C" {
 //! DACC return codes
 typedef enum dacc_rc {
 	DACC_RC_OK = 0,        //!< Operation OK
-	DACC_RC_INVALID_PARAM  //!< Invalid parameter
+	DACC_RC_INVALID_PARAM  //!< invalid parameter
 } dacc_rc_t;
 
 #if (SAM3N) || (SAM4L) || (SAM4N)
